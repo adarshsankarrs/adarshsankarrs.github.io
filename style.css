@@ -1,0 +1,55 @@
+body {
+	font-family: 'Lucida Consloe';
+	background-image: url("tac2.jpg");
+      background-repeat: no-repeat;
+      height: 100%;
+      background-size: cover;
+  }
+
+.container {
+	text-align: center;
+}
+
+.Heading {
+	font-size: 85px;
+	color: #DC143C;
+	margin: 10px auto;
+}
+
+
+
+.board {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	width: 300px;
+	margin: 40px auto;
+	background-color: rgb(245, 245, 245);
+	color: rgb(11, 64, 82);
+
+}
+
+
+
+.cell {
+	font-family: "Lucida Console", cursive;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #F5DEB3;
+
+	cursor: pointer;
+	line-height: 100px;
+	font-size: 60px;
+	caret-color: rgba(0, 0, 0, 0);
+}
+
+.winner {
+	font-size: 60px;
+	color: green;
+	margin: 20px auto;
+}
+
+.restart {
+	width: 200px;
+	height: 50px;
+      color: #00FA9A;
+}
